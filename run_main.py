@@ -220,10 +220,14 @@ def main(args: TrainConfig):
     torch.manual_seed(fix_seed)
     np.random.seed(fix_seed)
 
-    # Initialize Accelerator for distributed/mixed precision training
+    # DeepSpeed is useful for multi-GPU training, but it forces MPI/UCX init on some hosts.
+    # Keep local and smoke-test runs on plain Accelerate unless explicitly requested.
     ddp_kwargs = DistributedDataParallelKwargs(find_unused_parameters=True)
-    deepspeed_plugin = DeepSpeedPlugin(hf_ds_config='./config/ds_config_zero2.json')
-    accelerator = Accelerator(kwargs_handlers=[ddp_kwargs], deepspeed_plugin=deepspeed_plugin)
+    if "--use_deepspeed" in os.sys.argv:
+        deepspeed_plugin = DeepSpeedPlugin(hf_ds_config='./config/ds_config_zero2.json')
+        accelerator = Accelerator(kwargs_handlers=[ddp_kwargs], deepspeed_plugin=deepspeed_plugin)
+    else:
+        accelerator = Accelerator(kwargs_handlers=[ddp_kwargs])
 
     # Start the training process
     run_training(args, accelerator)
