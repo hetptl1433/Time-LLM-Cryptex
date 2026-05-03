@@ -8,6 +8,12 @@ checkpoints/
 mlruns/
 mlartifacts/
 mlflow.db
+
+# Local run logs.
+logs/
+*.log
+*.out
+
 *.ckpt
 *.pt
 *.pth
