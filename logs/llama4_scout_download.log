@@ -1,0 +1,135 @@
+Fetching 64 files:   0%|          | 0/64 [00:00<?, ?it/s]Still waiting to acquire lock on /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Still waiting to acquire lock on /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Still waiting to acquire lock on /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Still waiting to acquire lock on /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Still waiting to acquire lock on /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Downloading '.gitattributes' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/wPaCkH-WbT7GsmxMKKrNZTV4nSM=.52373fe24473b1aa44333d318f578ae6bf04b49b.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.gitattributes
+Downloading 'LICENSE' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/DhCjcNQuMpl4FL346qr3tvNUCgY=.2b22b8bc2f171406ffd03445b84c7efedcd292e9.incomplete'
+Fetching 64 files:   2%|▏         | 1/64 [00:00<00:16,  3.87it/s]Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/LICENSE
+Downloading 'model-00002-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/85Do6gMJzoMTU0p6i0fSEmaxrMw=.e6acea57d3006e6d3f6788adb1e435d8deb36302c5e57f434d923e67633f7121.incomplete'
+Downloading 'config.json' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/8_PA_wEVGiVa2goH2H4KQOQpvVY=.804f06c293e0fa272879d9031e2b02fdd0c32178.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/config.json
+Downloading 'generation_config.json' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/3EVKVggOldJcKSsGjSdoUCN1AyQ=.e3f00e28b14d3444eee03056679baf52f815fc26.incomplete'
+Downloading 'model-00003-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/dPpihBi0dqnoTRdXkBbHhQciKPs=.a82804c0762ae5bf8604ef746d665ece5a58592c2b2cb32dc77b05839f81abdf.incomplete'
+Downloading 'chat_template.jinja' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/yIUQ6Jg7XpBWXEkozaEkS2ih05g=.386d0320110fd2c5062ea1a39955e4c51e7bc821.incomplete'
+Downloading 'model-00001-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/ksJetQ_c4k7a3emVEUi-Vt_cR84=.bbf828156579c47920e57b6f0ab756affd19b37e82141661984f8b3969c07d21.incomplete'
+Downloading 'README.md' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/Xn7B-BWUGOee2Y6hCZtEhtFu4BE=.5473079e2122e902d370f5c968c7051d9e546a56.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/generation_config.json
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/chat_template.jinja
+Downloading 'USE_POLICY.md' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/UcPfAI5B08awK9_TiALuc0iOThI=.fd8d09da64c757a7c2c2764bfe2d5efba6011810.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/README.md
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/USE_POLICY.md
+Downloading 'model-00004-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/1aCe2nCGF_ZkYbsxmAXwS5RQC6M=.c506a653a01647ecaf59017efa144a7c37d37f92c1c39f2e09de7a39077f3f95.incomplete'
+Fetching 64 files:   5%|▍         | 3/64 [00:00<00:14,  4.29it/s]Downloading 'model-00005-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/ju353JY6JQnY_wZxXe59mQx6dpM=.263c89811dcf3bea5c0e4317703b095765b7f17a3a90538c2517562b98afea12.incomplete'
+Downloading 'model-00006-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/0tvPANaopeDCBXYanKEKBreEZtg=.24515405e22c53941607593eeed5ac11e2f99b308ed69b12991122b9ceb2cd77.incomplete'
+Downloading 'model-00007-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/0lc3rYW0n7C9JtbhU2dc5bgv3Y0=.501d6f29b4756d5f39231edd627cf4e41cf661c53aeece7c4fe12bac7e2b065c.incomplete'
+Downloading 'model-00008-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/eAaV9ztz7Ctp5_UyMhQkoydfZCo=.adb3cd17c4ea49c2017e55c2d8e965bdb270036e0a846a9e5b2cbfd65b6f7412.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00001-of-00050.safetensors
+Fetching 64 files:  12%|█▎        | 8/64 [00:47<06:21,  6.81s/it]Downloading 'model-00009-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/IpyEo7DxpOLKIl0RrWXFVw6oZkQ=.14e44b52dc9755332a0f7bc93ffbf97bcabe1a0ae952f501ec9911b3d125eb4e.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00003-of-00050.safetensors
+Downloading 'model-00010-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/Ah5gKIj0i4g-1ReyeM7lACf-1ZI=.ff899cbd27103d873deda9cf3c5a64ab50750a27914bd8265c15bde01ca6ac31.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00004-of-00050.safetensors
+Downloading 'model-00011-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/vWKPiH7xiCJdM9TWlcsGMWWyH1Q=.5cc570f56d72bdc2f569319028b020c9ee8dbeb92219ffff3d82d1de95bceaa8.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00008-of-00050.safetensors
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00006-of-00050.safetensors
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00007-of-00050.safetensors
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00005-of-00050.safetensors
+Downloading 'model-00013-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/SArupUbWJUOF9z1_iIL9dDvhxAM=.7de8e74201e97aefc62631d5da756a407df429ab13f40c5cec2dd2d213e20f9c.incomplete'
+Downloading 'model-00014-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/g1wDWbKXL8VX--Roe_ABSJ0Ebo4=.d748c87687d89792a926f3ff3603ea83eeeac9940d2444e643fcb6b137fabe00.incomplete'
+Downloading 'model-00015-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/-vz7JrwRMKA6lryIxEBCQ6aNHDE=.a02f782a1a9559f2268a6260c6b24771299fe53791dbe2be0be2650643c5d997.incomplete'
+Downloading 'model-00012-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/YQ3Fl5xEmR13DOdtcd59a8RWBos=.59aa34eb6c3d32f56c43a3746a95b4db344241aefe3525c9c0e32811d6e0a73c.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00002-of-00050.safetensors
+Fetching 64 files:  14%|█▍        | 9/64 [00:56<06:36,  7.21s/it]Downloading 'model-00016-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/TnsSbjkUSgdojE9cnNG1dtuFV-w=.9fe2c30d5ef14b66c1cdee2d668310877f361b0573b30cd6e7686d2951b92a48.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00010-of-00050.safetensors
+Downloading 'model-00017-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/E4RIwko69YBqBUHd_ptW-4zeRWc=.04f42430ef6435fe2073432296b2f4b3aab1d077c3b8c8f1b17b0b035daafdaa.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00011-of-00050.safetensors
+Downloading 'model-00018-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/CjyZwrb6UWxCz8eA-YWTBBt3964=.5794abbf334b25b61f2d112a09018f93659830a3c68367d34bc1c00aaff07d28.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00013-of-00050.safetensors
+Downloading 'model-00019-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/UVFHniqtdZEPRRIzHaZ6IoQ8M6w=.1e7f13a189c3085ce6a4f106c71ce0dda45ae2ccc4daff1d182abf282e00b3e8.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00015-of-00050.safetensors
+Downloading 'model-00020-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/bfdKRvy_7-Y2W1iJtK2Hk2sDz04=.b830a0c9ac8d867de91b01af537466fa0a2256b9859a469089de086643b03278.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00016-of-00050.safetensors
+Downloading 'model-00021-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/jr-ToKcCN0zwMK0X5Apd89tW64I=.21ed384c8b2b49ea0c21d83558aeee747a672dc3b9b9931c723f6b104cc1144d.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00014-of-00050.safetensors
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00012-of-00050.safetensors
+Downloading 'model-00022-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/JNjYoDC6cdKThbNQPwSFV_F4llM=.b72ea5e84f1443a14e36eb7e4b1c14143e6a1e57d6ba07b1902c08b6d6770c49.incomplete'
+Downloading 'model-00023-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/FkFSdO2T58HG_7zjmH4bAFX-nwM=.cd02f9a1a3c95959e2bb5b029bcdf92c2f6ba1d2c33c094a6359e00d22e679e6.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00009-of-00050.safetensors
+Fetching 64 files:  25%|██▌       | 16/64 [02:04<07:02,  8.80s/it]Downloading 'model-00024-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/Yc_FnwKAd8zfer2Tk5LMbvATacg=.f4f6b3e5d425a2eebe7baa622cacb4e3ceced4b3c90074f4979515afae1c2934.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00017-of-00050.safetensors
+Fetching 64 files:  38%|███▊      | 24/64 [02:11<03:10,  4.76s/it]Downloading 'model-00025-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/XbRMhgWxekCdvxQc53tzI_4usn4=.11ed1ef3dee4f266f043a032500a8612f3f876ba3b6f2ceb75e0c9930a472056.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00020-of-00050.safetensors
+Downloading 'model-00026-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/Jx0_FTy7OMpX3DSloiBDctlqlJQ=.7631aecf68ae2b61b5c837bd7187d6725afc4b0c073d8d6be55f4f903f8b9953.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00021-of-00050.safetensors
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00019-of-00050.safetensors
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00023-of-00050.safetensors
+Downloading 'model-00028-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/oWGLBzJdLFtw8m4XYDfP0xpfqag=.99683b9c8589200d803149e2fe6d7d644bb8672195a135c4a7917ab436e5cb40.incomplete'
+Downloading 'model-00027-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/tYun039gOgSSwfWHrLNiJFw-79Y=.50553fd675a45efe5679cf54a4c1f3ccbec5bc199f9aa4454ab9a33588396fe6.incomplete'
+Downloading 'model-00029-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/BY9rV9v8xMNXuzhsCCr2gGPHtVk=.8394beb7790a0fd628819dbc287da3c6454c64ce65280c7de4d5966521787555.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00024-of-00050.safetensors
+Downloading 'model-00030-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/FSaWHOj135ReYh0SOVfuhg0C06k=.e0da9e833d7f9652eac07191899a06fed28699ac7ecc52ce1574d940ea18e5cd.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00022-of-00050.safetensors
+Downloading 'model-00031-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/O4GhqIyFHv6WcIypJYtMr_T4DxM=.73573916fe578f1a9fde4ecd0963207dd438bc58b960100a3a5b0b987f3c0878.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00026-of-00050.safetensors
+Downloading 'model-00032-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/_PPITEBXcaspRq5x2JrxSotvwBI=.8dbfb9536b33d79dfac6566dcc852a2b1ed7e8244c7e9bc0268edf03abbc1074.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00025-of-00050.safetensors
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00018-of-00050.safetensors
+Fetching 64 files:  39%|███▉      | 25/64 [03:09<05:59,  9.21s/it]Downloading 'model-00034-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/rb_csrhdkYVTE7_Wzv3cdlnq19c=.3c26d94d6079a2fef6b0eaa217b3b05b428a317c8c2fdc5bd3f535cb068c4e21.incomplete'
+Downloading 'model-00033-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/DyBJ5Qh8bT0i8JsFRIBjbmUNPjs=.f0e740433f753ee678ff21bdfdf2c14545d914c443463162701d68a8179d5739.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00027-of-00050.safetensors
+Fetching 64 files:  53%|█████▎    | 34/64 [03:13<02:20,  4.68s/it]Downloading 'model-00035-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/xQ44MkPpMdTUQBupIOEmIq6s8_I=.c0d4f2685a86db5e9e29af427962ff6834b38269b0a9d551a44efcce2e24cb7d.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00028-of-00050.safetensors
+Fetching 64 files:  55%|█████▍    | 35/64 [03:15<02:09,  4.47s/it]Downloading 'model-00036-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/Y8MGmQUGAWJcxWSGvV-E51T4EUI=.8c98ba369fb5c322a32676aab4cfc8dbf0ca8b9baeaedcd892af2bf7ad317ff7.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00030-of-00050.safetensors
+Downloading 'model-00037-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/1jAuC_yY88djc3pYuecqYtXPv6A=.f11b830802e6f6e1c98b1b98290009c66f126c3ac6be4c15b35851c484ca86dd.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00031-of-00050.safetensors
+Downloading 'model-00038-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/iCuwE4KED8Mg5ld0US1gMSj8IZU=.5b48ce2681c3f229c37b3d482c085e77d082eb0a70c591a648f2bfb0c2517b00.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00032-of-00050.safetensors
+Downloading 'model-00039-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/pEFZgGbZUGsghpPO0u8rQCS_bPw=.311b90d7440430bfa485bc180f4edfd7d2ccb4205350150d873b50d15d6e581b.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00033-of-00050.safetensors
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00034-of-00050.safetensors
+Downloading 'model-00040-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/af5nCpFWCOz-ytdkrLYMA2u5ivU=.746016b6f4d211fed930407c9830f2b6456578d891a396c587ad2c56069f8b97.incomplete'
+Downloading 'model-00041-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/HwDXeIyfR0AvXhKN8inwbhZhVNc=.926afe352c3f28efd44b8fec30c3e05862c718be35d49c6a92872bac7b503f82.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00035-of-00050.safetensors
+Downloading 'model-00042-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/ptXxZNXArxaqwsqR45RbPKtOCUk=.e537ea7d13c82f40252b7c6a1d4dc562a3c92a5bb0136ae3ffc3272cbbdbccab.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00036-of-00050.safetensors
+Downloading 'model-00043-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/OznsjnJx1UPcXtCsupgtfSFpEy8=.349ced4be8332c261d2dab21f65975d4c20f6b9886e38e74b2c56977e57589c1.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00037-of-00050.safetensors
+Downloading 'model-00044-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/abd9-5Ze9wXA1RSyDFBfjkUrrIg=.6a7f200a2e02a088e3e4d0b0d8dc238d5895f3d1c21fd6616bee4a65aa3ad5e8.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00038-of-00050.safetensors
+Downloading 'model-00045-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/WEHMwDJf53aOyeKB5wsfqW5QRIs=.1f104e4a56379fa6e0ce09157b8b348030d635e216dce06ebf1e06fd7bf0b921.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00039-of-00050.safetensors
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00041-of-00050.safetensors
+Downloading 'model-00046-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/fp2x1_1zNnhtNYmy43J-76P2334=.fe7ac21d014f1fe88d6c8b8066b6a30c21ff609b480663f06eab152319466a38.incomplete'
+Downloading 'model-00047-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/MYBYXEcbwvLp_KDo7WWf2s29a04=.d25967581499d21ed97f2e812aa77e5f0db7174193eb5b2f7d0cd28ee59fda01.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00040-of-00050.safetensors
+Downloading 'model-00048-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/CE-9ojdum5QziqRD6BuIrMRwAuA=.fd0c1399bc7dfca7601ad5b7163744973ef912a53ffa64c5b473622d64c7f678.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00042-of-00050.safetensors
+Downloading 'model-00049-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/b7PdmyANeh7ZNLutZDZxiQQcV30=.b63d113ff6f8a87204267a91c3df2dde8dd8acb799373eab710d5da85630ad22.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00043-of-00050.safetensors
+Downloading 'model-00050-of-00050.safetensors' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/eZa5gq1hLj7ENyJr1y2E0OqlX04=.5f412ae287747cc86e6ee5d58600bbe5c574d6fa77f351367aae9ea3f4dbcc3a.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00044-of-00050.safetensors
+Downloading 'model.safetensors.index.json' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/yVzAsSxRSINSz-tQbpx-TLpfkLU=.a301ade1b23808f6314590333804ecf1b66e52e3.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model.safetensors.index.json
+Downloading 'preprocessor_config.json' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/PYH5dHjks7Ei0Yd3X0Z8xIwsCNQ=.4eef772357a282205fface45491471dc35ad030d.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/preprocessor_config.json
+Downloading 'processor_config.json' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/8BeVhMN1eB33CiLECQDJwUnv7xg=.2f3cae49c25616991dc8876e733fde78cfb354f8.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/processor_config.json
+Downloading 'special_tokens_map.json' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/ahkChHUJFxEmOdq5GDFEmerRzCY=.521800e857af7d2127c4b49797c34c0046cf9858.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/special_tokens_map.json
+Downloading 'tokenizer.json' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/HgM_lKo9sdSCfRtVg7MMFS7EKqo=.172c9eb4beafc72601690da3ccfcede5c2e6806a8d5ec1fca33e22acea8023a4.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/tokenizer.json
+Downloading 'tokenizer.model' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/7iVfz3cUOMr-hyjiqqRDHEwVBAM=.d0bdbaf59b0762c8c807617e2d8ea51420eb1b1de266df2495be755c8e0ed6ed.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/tokenizer.model
+Downloading 'tokenizer_config.json' to '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/.cache/huggingface/download/vzaExXFZNBay89bvlQv-ZcI6BTg=.f247c1f80baf853e7fc32d8a4487dd76858a0ef8.incomplete'
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/tokenizer_config.json
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00050-of-00050.safetensors
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00045-of-00050.safetensors
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00047-of-00050.safetensors
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00049-of-00050.safetensors
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00046-of-00050.safetensors
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00048-of-00050.safetensors
+Download complete. Moving file to /nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct/model-00029-of-00050.safetensors
+Fetching 64 files:  56%|█████▋    | 36/64 [05:21<07:39, 16.40s/it]Fetching 64 files: 100%|██████████| 64/64 [05:21<00:00,  5.03s/it]
+/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct

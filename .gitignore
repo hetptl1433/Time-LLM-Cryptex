@@ -1,3 +1,22 @@
 dataset/cryptex/*
 temp/*
 *.csv
+
+# Local model weights, checkpoints, and experiment artifacts.
+llm_weights/
+checkpoints/
+mlruns/
+mlartifacts/
+mlflow.db
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.onnx
+*.h5
+*.pkl
+
+# Python runtime caches.
+__pycache__/
+*.py[cod]

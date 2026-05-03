@@ -1,0 +1,74 @@
+[2026-04-19 23:38:41] START era_2018_2021_llama31_l6_seq7
+/home/hpatel/.local/lib/python3.10/site-packages/torch/cuda/__init__.py:54: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+2026/04/19 23:38:46 INFO mlflow.tracking.fluent: Experiment with name 'era_sensitivity_2022_2025_llama31_l6_seq' does not exist. Creating a new experiment.
+Setting experiment name to era_sensitivity_2022_2025_llama31_l6_seq
+Tracking URI: sqlite:////nfs_nvme/het/Time-LLM-Cryptex/mlflow.db
+beginning mlflow run for
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:06,  2.12s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.88it/s]
+/home/hpatel/.local/lib/python3.10/site-packages/torch/nn/init.py:452: UserWarning: Initializing zero-element tensors is a no-op
+  warnings.warn("Initializing zero-element tensors is a no-op")
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "/nfs_nvme/het/Time-LLM-Cryptex/models/TimeLLM.py", line 330, in forward
+    enc_out, n_vars = self.patch_embedding(input_data.to(torch.bfloat16))  # enc_out: [B*n_vars, num_patches, d_model], n_vars: int
+  File "/home/hpatel/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/hpatel/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/nfs_nvme/het/Time-LLM-Cryptex/layers/Embed.py", line 103, in forward
+    x = x.unfold(dimension=-1, size=self.patch_len, step=self.stride)  # [batch, n_vars, num_patches, patch_len]
+RuntimeError: maximum size for tensor at dimension 2 is 15 but size is 16
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/nfs_nvme/het/Time-LLM-Cryptex/run_main.py", line 237, in <module>
+    main(args)
+  File "/nfs_nvme/het/Time-LLM-Cryptex/run_main.py", line 233, in main
+    run_training(args, accelerator)
+  File "/nfs_nvme/het/Time-LLM-Cryptex/run_main.py", line 124, in run_training
+    outputs = model(input_data)  # [batch, pred_len, num_features]
+  File "/home/hpatel/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/hpatel/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/nfs_nvme/het/Time-LLM-Cryptex/models/TimeLLM.py", line 332, in forward
+    enc_out, n_vars = self.patch_embedding(input_data)  # enc_out: [B*n_vars, num_patches, d_model], n_vars: int
+  File "/home/hpatel/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/hpatel/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/nfs_nvme/het/Time-LLM-Cryptex/layers/Embed.py", line 103, in forward
+    x = x.unfold(dimension=-1, size=self.patch_len, step=self.stride)  # [batch, n_vars, num_patches, patch_len]
+RuntimeError: maximum size for tensor at dimension 2 is 15 but size is 16
+/home/hpatel/.local/lib/python3.10/site-packages/torch/cuda/__init__.py:54: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Downloading artifacts:   0%|          | 0/1 [00:00<?, ?it/s]Downloading artifacts:   0%|          | 0/1 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/nfs_nvme/het/Time-LLM-Cryptex/run_inference.py", line 170, in <module>
+    main(args)
+  File "/nfs_nvme/het/Time-LLM-Cryptex/run_inference.py", line 75, in main
+    args, model_state_path, run_id = load_mlflow_artifacts_and_args(
+  File "/nfs_nvme/het/Time-LLM-Cryptex/run_inference.py", line 59, in load_mlflow_artifacts_and_args
+    model_state_path = client.download_artifacts(run_id, "state_dict.pth")
+  File "/home/hpatel/.local/lib/python3.10/site-packages/mlflow/tracking/client.py", line 3730, in download_artifacts
+    return self._tracking_client.download_artifacts(run_id, path, dst_path)
+  File "/home/hpatel/.local/lib/python3.10/site-packages/mlflow/tracking/_tracking_service/client.py", line 752, in download_artifacts
+    return download_artifacts(
+  File "/home/hpatel/.local/lib/python3.10/site-packages/mlflow/artifacts/__init__.py", line 90, in download_artifacts
+    return _download_artifact_from_uri(
+  File "/home/hpatel/.local/lib/python3.10/site-packages/mlflow/tracking/artifact_utils.py", line 128, in _download_artifact_from_uri
+    return repo.download_artifacts(artifact_path=artifact_path, dst_path=output_path)
+  File "/home/hpatel/.local/lib/python3.10/site-packages/mlflow/store/artifact/runs_artifact_repo.py", line 230, in download_artifacts
+    raise MlflowException(
+mlflow.exceptions.MlflowException: Failed to download artifacts from path 'state_dict.pth', please ensure that the path is correct.
+Traceback (most recent call last):
+  File "/nfs_nvme/het/Time-LLM-Cryptex/utils/experiment_tracker.py", line 215, in <module>
+    main()
+  File "/nfs_nvme/het/Time-LLM-Cryptex/utils/experiment_tracker.py", line 122, in main
+    inference_metrics = compute_inference_metrics(
+  File "/nfs_nvme/het/Time-LLM-Cryptex/utils/experiment_tracker.py", line 76, in compute_inference_metrics
+    raise FileNotFoundError(f"Inference CSV not found: {inference_csv}")
+FileNotFoundError: Inference CSV not found: outputs/era_2018_2021_llama31_l6_seq7_test_2022_2025/inference.csv
+[2026-04-19 23:39:07] DONE era_2018_2021_llama31_l6_seq7

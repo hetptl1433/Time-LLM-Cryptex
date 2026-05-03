@@ -56,6 +56,8 @@ class TrainConfig:
     num_tokens: int = 1000
     enable_mlflow: bool = True
     experiment_name: Optional[str] = None
+    use_deepspeed: bool = False
+    deepspeed_config: str = "./config/ds_config_zero2.json"
 
     @classmethod
     def from_namespace(cls, ns) -> "TrainConfig":
@@ -118,5 +120,7 @@ class TrainConfig:
         parser.add_argument('--num_tokens', type=int, default=1000, help='Number of tokens for the mapping layer (controls tokenization granularity).')
         parser.add_argument('--enable_mlflow', action='store_true', default=True, help='Enable MLflow experiment tracking and logging (recommended: keep enabled).')
         parser.add_argument('--experiment_name', type=str, default=None, help='Experiment name to use for MLflow experiment tracking and logging.')
+        parser.add_argument('--use_deepspeed', action='store_true', help='Enable DeepSpeed plugin for distributed training.')
+        parser.add_argument('--deepspeed_config', type=str, default='./config/ds_config_zero2.json', help='Path to DeepSpeed JSON config (e.g., ZeRO2 or ZeRO3).')
         ns = parser.parse_args()
         return cls.from_namespace(ns)

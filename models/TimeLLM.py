@@ -172,6 +172,18 @@ class Model(nn.Module):
                 'model_class': AutoModel,
                 'tokenizer_class': AutoTokenizer,
                 'model_name': 'meta-llama/Llama-3.1-8B'
+            },
+            'LLAMA4_SCOUT': {
+                'config_class': AutoConfig,
+                'model_class': AutoModel,
+                'tokenizer_class': AutoTokenizer,
+                'model_name': '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct'
+            },
+            'LLAMA4_SCOUT_BNB4': {
+                'config_class': AutoConfig,
+                'model_class': AutoModel,
+                'tokenizer_class': AutoTokenizer,
+                'model_name': '/nfs_nvme/het/Time-LLM-Cryptex/llm_weights/Llama-4-Scout-17B-16E-Instruct-bnb-4bit'
             }
             # Add new models here
         }

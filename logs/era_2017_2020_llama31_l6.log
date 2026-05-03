@@ -1,0 +1,16 @@
+[2026-04-13 02:40:56] start training: era_2017_2020_llama31_l6
+/home/hpatel/.local/lib/python3.10/site-packages/torch/cuda/__init__.py:54: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Setting experiment name to era_sensitivity_2022_2025_llama31_l6_v2
+Tracking URI: sqlite:////home/hpatel/Time-LLM-Cryptex/mlflow.db
+Traceback (most recent call last):
+  File "/home/hpatel/Time-LLM-Cryptex/run_main.py", line 237, in <module>
+    main(args)
+  File "/home/hpatel/Time-LLM-Cryptex/run_main.py", line 233, in main
+    run_training(args, accelerator)
+  File "/home/hpatel/Time-LLM-Cryptex/run_main.py", line 45, in run_training
+    mlflow.set_experiment(args.experiment_name)
+  File "/home/hpatel/.local/lib/python3.10/site-packages/mlflow/tracking/fluent.py", line 220, in set_experiment
+    raise MlflowException(
+mlflow.exceptions.MlflowException: Cannot set a deleted experiment 'era_sensitivity_2022_2025_llama31_l6_v2' as the active experiment. You can restore the experiment, or permanently delete the experiment to create a new one.
+[2026-04-13 02:41:01] training failed: era_2017_2020_llama31_l6

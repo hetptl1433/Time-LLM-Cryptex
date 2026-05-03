@@ -70,7 +70,7 @@ def run_training(args: TrainConfig, accelerator):
         test_data, test_loader = data_provider(args, 'test')     # test_data: Dataset, test_loader: DataLoader
 
         # Initialize the TimeLLM model
-        model = TimeLLM.Model(args).float()  # Model expects input: [batch, seq_len, num_features]
+        model = TimeLLM.Model(args)  # Keep pretrained dtype (important for large backbones)
         temp_checkpoint_path = os.path.join(args.checkpoints, args.model_id)
 
         if accelerator.is_local_main_process:
@@ -223,8 +223,8 @@ def main(args: TrainConfig):
     # DeepSpeed is useful for multi-GPU training, but it forces MPI/UCX init on some hosts.
     # Keep local and smoke-test runs on plain Accelerate unless explicitly requested.
     ddp_kwargs = DistributedDataParallelKwargs(find_unused_parameters=True)
-    if "--use_deepspeed" in os.sys.argv:
-        deepspeed_plugin = DeepSpeedPlugin(hf_ds_config='./config/ds_config_zero2.json')
+    if args.use_deepspeed:
+        deepspeed_plugin = DeepSpeedPlugin(hf_ds_config=args.deepspeed_config)
         accelerator = Accelerator(kwargs_handlers=[ddp_kwargs], deepspeed_plugin=deepspeed_plugin)
     else:
         accelerator = Accelerator(kwargs_handlers=[ddp_kwargs])
